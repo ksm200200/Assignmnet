@@ -11,6 +11,7 @@ public class MainClass {
 		//person 객체 생성 및 값 입력
 		Person person = new Person("김선민", 25, "학생");
 		
+		
 		Menu menu = new Menu();
 		
 		while(true) {
@@ -31,7 +32,9 @@ public class MainClass {
 				System.out.println("종료");
 				System.exit(0);
 				
+				scan.close();
 			}
+			
 		}
 		
 	}
