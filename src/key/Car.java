@@ -2,6 +2,7 @@ package key;
 
 public class Car {
 	
+	
 	//변수 선언하고 캡슐화
 	private String brand;
 	private String model;
